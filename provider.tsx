@@ -1,19 +1,18 @@
 'use client';
 
-import { MantineProvider, MantineThemeOverride } from '@mantine/core';
+import { MantineProvider as Provider, MantineThemeOverride } from '@mantine/core';
 
 import { theme as baseTheme } from './theme';
 
-import './globals.css';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css'; 
 
-export default function RootStyleRegistry({
+export default function MantineProvider({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const theme: Partial<MantineThemeOverride> = baseTheme;
 
-  return <MantineProvider theme={theme}>{children}</MantineProvider>;
+  return <Provider theme={theme}>{children}</Provider>;
 }

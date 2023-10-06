@@ -15,16 +15,16 @@ export const theme: Partial<MantineThemeOverride> = {
 
   colors: {
     primary: [
-      '#f6faf3',
-      '#e9f5e3',
-      '#d3eac8',
-      '#afd89d',
-      '#82bd69',
-      '#61a146',
-      '#4c8435',
-      '#3d692c',
-      '#345427',
-      '#2b4522',
+      "#e0fbff",
+      "#cbf2ff",
+      "#9ae2ff",
+      "#64d2ff",
+      "#3cc5fe",
+      "#23bcfe",
+      "#09b8ff",
+      "#00a1e4",
+      "#0090cd",
+      "#007cb5"
     ],
   },
 
